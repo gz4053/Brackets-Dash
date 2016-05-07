@@ -44,7 +44,7 @@ define(function (require, exports, module) {
 
     AppInit.appReady(function () {
         console.log("[brackets-dash] init");
-        KeyBindingManager.addBinding(DASH_EXECUTE, "SHIFT-CMD-K");
+        KeyBindingManager.addBinding(DASH_EXECUTE, "SHIFT-CMD-P");
     });
 
 });
